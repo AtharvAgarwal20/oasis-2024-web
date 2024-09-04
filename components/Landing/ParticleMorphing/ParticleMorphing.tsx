@@ -93,7 +93,7 @@ export default function ParticleMorphing() {
     particles = null;
 
     // Load Models
-    gltfLoader.load("/Models/loaderObjects.glb", (gltf) => {
+    gltfLoader.load("/Models/Loader.glb", (gltf) => {
       particles = {
         index: 0,
       };
@@ -197,7 +197,7 @@ export default function ParticleMorphing() {
         if (morphIndex > gltf.scene.children.length - 1) {
           morphIndex = 0;
         }
-      }, 5000);
+      }, 4000);
     });
 
     /**
