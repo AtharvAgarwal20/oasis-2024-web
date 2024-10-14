@@ -18,7 +18,8 @@ body {
   overflow-y: hidden;
 }
 
-.htmlScreen iframe, .htmlScreenIos iframe {
+.htmlScreen iframe,
+.htmlScreenIos iframe {
   width: 1000px;
   height: 750px;
   transform: rotateY(180deg);
@@ -28,7 +29,7 @@ body {
   position: absolute;
 }
 
-.htmlScreenIos{
+.htmlScreenIos {
   transform: translateY(-100px);
   overflow: visible;
 }
@@ -69,6 +70,17 @@ body {
   position: relative;
   width: 1000px;
   height: 750px;
+}
+
+#events-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 2000px;
+  height: 750px;
+  transform: rotateY(20deg);
+  display: none;
 }
 
 .ant-select-selector {

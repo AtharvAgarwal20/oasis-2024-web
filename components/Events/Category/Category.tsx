@@ -29,7 +29,6 @@ export default function Category({ onClose }: CategoryProps) {
       .get("https://bits-oasis.org/2024/main/registrations/events_details/")
       .then((res) => {
         const events = res.data;
-        // console.log(events);
         seteventsList(events);
       });
   }, []);
