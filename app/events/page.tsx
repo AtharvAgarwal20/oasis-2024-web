@@ -31,7 +31,7 @@ export default function EventsPage() {
       style={{
         width: "100vw",
         height: "100dvh",
-        // transform: "rotateY(180deg)",
+        transform: "rotateY(180deg)",
       }}
     >
       <div className={styles.heading}>
@@ -99,7 +99,7 @@ export default function EventsPage() {
 
       {isModalOpen && (
         <div className={styles.fixedCategoryContainer}>
-          <Category onClose={handleCloseModal} currentCategory={category}/>
+          <Category onClose={handleCloseModal} currentCategory={category} />
         </div>
       )}
     </main>
