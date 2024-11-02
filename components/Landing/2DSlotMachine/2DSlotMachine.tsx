@@ -39,7 +39,7 @@ const MobileSlotMachine = forwardRef(function MobileSlotMachine(
     });
   };
 
-  const videoUrlArrayIframe = ["ZCrClSBM1ns", "0BYgHIMnz50", "krsrGOqnAN0"];
+  const videoUrlArrayIframe = ["Ogio7ZJSb9g", "0BYgHIMnz50", "ZCrClSBM1ns"];
 
   return (
     <div className={styles.slotMachine} id="slot-machine-2d" ref={ref}>

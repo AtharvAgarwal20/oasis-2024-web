@@ -47,7 +47,7 @@ export const SlotMachine = forwardRef(function SlotMachine2(
 ) {
   const { nodes, materials } = useGLTF("/Models/uSlotM.glb") as GLTFResult;
 
-  const videoUrlArrayIframe = ["ZCrClSBM1ns", "0BYgHIMnz50", "krsrGOqnAN0"];
+  const videoUrlArrayIframe = ["Ogio7ZJSb9g", "0BYgHIMnz50", "ZCrClSBM1ns"];
 
   const [iframeIndex, setIframeIndex] = useState(0);
 
